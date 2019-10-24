@@ -1,0 +1,11 @@
+<resources>
+    <array name="name">
+        <item>Select</item>
+        <item>Guider</item>
+        <item>Tourist</item>
+
+    </array>
+
+    <string name="app_name">Tour</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "643275717290",
+    "firebase_url": "https://tourloginsignup.firebaseio.com",
+    "project_id": "tourloginsignup",
+    "storage_bucket": "tourloginsignup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643275717290:android:efd1fe8459691bb0b52ed3",
+        "android_client_info": {
+          "package_name": "com.example.tourloginsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643275717290-vhet8ufq01ac47odrv5c0agri5e8ck1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourloginsignup",
+            "certificate_hash": "caffd645732e4ddb6816dcfd7571876db4ae3dbb"
+          }
+        },
+        {
+          "client_id": "643275717290-lr6fe73fffg2l2m54uf972b3sj7hbaou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6CsTiuHkI3O6WbQBb46OQjCHVAgft87I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643275717290-lr6fe73fffg2l2m54uf972b3sj7hbaou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

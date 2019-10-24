@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Tourist_Dashboard">
+
+    <LinearLayout
+        android:layout_width="104dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/name"
+        android:orientation="vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tourist"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPr"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/msg"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_message_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textSize="20sp"
+                android:textColor="@color/colorPr"
+                android:layout_gravity="bottom|center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/order"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_history_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order History"
+                android:textSize="20sp"
+                android:textColor="@color/colorPr"
+                android:layout_gravity="bottom|center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/orderc"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_history_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client History"
+                android:textSize="20sp"
+                android:textColor="@color/colorPr"
+                android:layout_gravity="bottom|center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/date"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_date_range_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tourist Dates"
+                android:textSize="20sp"
+                android:textColor="@color/colorPr"
+                android:layout_gravity="bottom|center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:id="@+id/earning"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_monetization_on_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earning"
+                android:textSize="20sp"
+                android:textColor="@color/colorPr"
+                android:layout_gravity="bottom|center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/feedback"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_feedback_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textSize="20sp"
+                android:textColor="@color/colorPr"
+                android:layout_gravity="bottom|center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>

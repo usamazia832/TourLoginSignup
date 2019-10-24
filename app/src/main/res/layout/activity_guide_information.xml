@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".GuideInformation">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="80dp"
+        >
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register as a Guide"
+            android:textSize="20sp"
+            android:textColor="@color/colorPr"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/username" />
+        <EditText
+            android:id="@+id/etUser"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="@color/colorPr"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/username"/>
+        <EditText
+            android:id="@+id/etFathername"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father name"
+            android:textColorHint="@color/colorPr"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/call" />
+        <EditText
+            android:id="@+id/etContact"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact no"
+            android:textColorHint="@color/colorPr"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/identity"/>
+        <EditText
+            android:id="@+id/etCnic"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CNIC"
+            android:textColorHint="@color/colorPr"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lock">
+
+        </ImageView>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Set Password"
+            android:textColorHint="@color/colorPr"
+
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lock">
+
+        </ImageView>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/etConfirmPassword"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/colorPr"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="SIGN UP"
+        android:textColor="@color/colorPr"
+        android:background="@drawable/btn"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+</LinearLayout>
